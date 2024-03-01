@@ -1,0 +1,190 @@
+/* reference for fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(41, 24, 24);
+    color: rgb(255, 255, 245);
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    padding: 50px 10%;
+    width: 100%;
+    font-size: 1.234rem;
+    font-weight: bold; 
+    cursor: pointer; 
+    z-index: 100; 
+
+}
+
+.logo-name a{
+    text-decoration: none;
+    color: rgb(255, 255, 245);
+}
+
+.logo-name a:hover{
+    color: greenyellow;
+}
+
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;  
+}
+
+.nav-links li a{
+    color: rgb(255, 255, 245);
+    text-decoration: none;
+    padding: 5px 13px;
+    border: 2px solid rgb(255, 255, 245);
+    border-radius: 10px;
+    transition: all .2s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active{
+    color:rgb(255, 255, 245);
+    background: greenyellow;
+}
+
+.icon-moon{
+    position: absolute;
+    right: 7%;
+    top: 35%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon-fb{
+    margin-left: 130px;
+    margin-top: -2%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon-fb:hover{
+    background: linear-gradient(135deg, #1877f2, #04a0f4);
+    border-radius: 20px;
+}
+
+
+.icon-ig{
+    margin-left: 10px;
+    margin-top: -2%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon-ig:hover{
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    border-radius: 20px;
+}
+
+.icon-git{
+    margin-left: 10px;
+    margin-top: -2%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon-git:hover{
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.img-face img{
+    margin-top: 3%;
+    margin-left: 70%;
+    height: 50vh;
+    /* From https://css.glass */
+    background: rgba(23, 3, 3, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(2.2px);
+    image-rendering: auto;
+}
+
+.home-contents{
+    max-width: 500px;
+    margin-left: 20%;
+    margin-top: -20%;
+}
+
+.home-contents p{
+    font-size: 1rem;
+}
+
+.letter-j{
+    color: yellowgreen;
+}
+
+.letter-c{
+    color: yellowgreen;
+}
+
+.home-contents .btn-links{
+    width: 350px;
+    height: 50px;
+}
+/*
+.bg-color{
+    background: green;
+}
+*/
+.home-contents p{
+    font-size: 1.234rem;
+}
+
+.home-contents h1{
+    font-size: 3rem;
+}
+
+.home-contents h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.btn-links a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100px;
+    height: 70%;
+    margin-top: 39px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 1px; 
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn-links a:hover{
+    background-color: greenyellow;
+}
+
+.passionate-highlighted{
+    background-color: rgba(41, 255, 108, 0.975);
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+
+
+
+
